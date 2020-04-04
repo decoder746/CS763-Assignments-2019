@@ -1,0 +1,6 @@
+I have used the hueristic that I choose the word with the longest pronounciation.(Used
+this because in Q3.3 it was given to choose the longest pronounciation).
+Also the setup and everything is good but the lookups are very slow and don't know the reason for that.
+
+This won't work when the context of the prefix and suffix is quite different than in the original words from which the pronounciations were choosen.
+This can be improved by assigning higher weights to the breakup of word which are more reasonable like in the word "IMPROVEMENT"  it should be broken like "IMPROVE" + "MENT" rather than "IMP" + "ROVEMENT".
